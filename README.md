@@ -12,8 +12,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/interactive-and-responsive-rating-page-using-media-query-bootstrap-pmM1w2G1yg))
+- Live Site URL: [Rating-Page](https://github.com/Ujjval-dargar/Frontend-Challenge-2-Rating-Page)
 
 
 ### Built with
