@@ -1,0 +1,140 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hide{
+    display: none;
+}
+
+.pressed {
+    background-color: hsl(0, 0%, 100%) !important;
+    color: black;
+}
+
+.main,
+.thank-page {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 25px;
+    margin: auto ;
+    margin-top: 200px;
+    padding: 30px;
+    width: 28%;
+}
+
+.star-svg {
+    border-radius: 50%;
+    background-color: hsla(217, 12%, 63%, 0.158);
+    text-align: center;
+
+    padding: 9px;
+    width: 45px;
+    height: 45px;
+
+    margin-bottom: 30px;
+}
+
+.star-selected-text {
+    background-color: hsla(217, 12%, 63%, 0.063);
+    border-radius: 20px; 
+    display: inline-block;
+    color: hsl(25, 97%, 53%);
+    
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    
+    padding: 5px 20px;
+    margin: 36px 0;
+}
+
+.no-selected-text{
+    color: brown;
+}
+
+.rate-1,
+.rate-2,
+.rate-3,
+.rate-4,
+.rate-5 
+{
+    border-radius: 50%;
+    background-color: hsla(217, 12%, 63%, 0.158);
+
+    height: 45px;
+    width: 45px;
+    
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.rate-1:hover,
+.rate-2:hover,
+.rate-3:hover,
+.rate-4:hover,
+.rate-5:hover 
+{
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+}
+
+.btnn {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    height: 40px;
+    width: 100%;
+    display: block;
+    
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+@media (max-width:1040px){
+    .main,.thank-page{
+        width:35%;
+    }
+}
+@media (max-width:850px){
+    .main,.thank-page{
+        width:40%;
+        margin-top: 180px;
+    }
+}
+@media (max-width:725px){
+    .main,.thank-page{
+        width:50%;
+        margin-top: 150px;
+    }
+}
+@media (max-width:600px){
+    .main,.thank-page{
+        width:90%;
+        margin-top: 120px;
+    }
+}
+
+
+
+
